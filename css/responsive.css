@@ -29,12 +29,18 @@
      }
  }
  @media (max-width: 400px) {
-     .footer-box {
+     .footer {
          width: 40%;
      }
-     .footer-wrapper {
+     .container {
          flex-direction: column;
      }
+     .description, .privacy {
+         margin: 0;
+     }
+ @media (max-width: 550px) {
+    .footer-container { 
+        flex-direction: column;  
 
  }
 }
